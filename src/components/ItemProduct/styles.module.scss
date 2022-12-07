@@ -1,0 +1,47 @@
+.product {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 200px;
+    box-shadow: 0px 0px 9px 0px lightgrey;
+    border-radius: 6px;
+    padding-bottom: 19px;
+
+    img {
+        border-radius: 6px 6px 0px 0px;
+        width: 100%;
+    }
+
+    p {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    button {
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    .primary {
+        background-color: #0094f7;
+    }
+
+    .danger {
+        background-color: tomato;
+    }
+
+    .primary:hover{
+        background-color: #007dd1;
+        transition: .5s;
+    }
+
+    .danger:hover{
+        background-color: #ff5233;
+        transition: .5s;
+    }
+}

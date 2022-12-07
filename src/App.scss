@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: system-ui;
+}
+
+.btnPrimary {
+    background-color: #0094f7;
+}
+
+.btnDanger {
+    background-color: tomato;
+}
+
+.btnPrimary:hover{
+    background-color: #007dd1;
+    transition: .5s;
+}
+
+.btnDanger:hover{
+    background-color: #ff5233;
+    transition: .5s;
+}
